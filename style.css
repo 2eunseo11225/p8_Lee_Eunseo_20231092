@@ -1,0 +1,21 @@
+
+// 기본 설정
+html,
+body {
+
+  margin: 0;
+  padding: 0;
+
+  overflow: hidden;
+
+  background: black;
+
+}
+
+// 캔버스 설정
+
+canvas {
+
+  display: block;
+
+}
