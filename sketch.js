@@ -145,9 +145,9 @@ function generateParticlesFromImage(img) {
     img.height * scale / 2;
 
   // 간격 크게
-  for (let x = 0; x < img.width; x += 2) {
+  for (let x = 0; x < img.width; x += 6) {
 
-    for (let y = 0; y < img.height; y += 2) {
+    for (let y = 0; y < img.height; y += 6) {
 
       let index =
         (x + y * img.width) * 4;
@@ -166,7 +166,7 @@ function generateParticlesFromImage(img) {
         );
 
         // 최대 개수 제한
-        if (particles.length > 26000) {
+        if (particles.length > 16000) {
 
           return;
 
@@ -217,9 +217,9 @@ function reformToTarget() {
     height / 2 -
     currentTarget.height * scale / 2;
 
-  for (let x = 0; x < currentTarget.width; x += 2) {
+  for (let x = 0; x < currentTarget.width; x += 6) {
 
-    for (let y = 0; y < currentTarget.height; y += 2) {
+    for (let y = 0; y < currentTarget.height; y += 6) {
 
       let index =
         (x + y * currentTarget.width) * 4;
