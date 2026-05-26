@@ -134,7 +134,7 @@ function generateParticlesFromImage(img) {
 
   img.loadPixels();
 
-  let scale = 0.5;
+  let scale = 0.9;
 
   let offsetX =
     width / 2 -
@@ -207,7 +207,7 @@ function reformToTarget() {
 
   let targets = [];
 
-  let scale = 0.5;
+  let scale = 0.9;
 
   let offsetX =
     width / 2 -
