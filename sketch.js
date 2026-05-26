@@ -166,7 +166,7 @@ function generateParticlesFromImage(img) {
         );
 
         // 최대 개수 제한
-        if (particles.length > 6000) {
+        if (particles.length > 26000) {
 
           return;
 
