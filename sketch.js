@@ -151,9 +151,9 @@ function generateParticlesFromImage(img) {
     img.height * scale / 2;
 
   // 간격 크게
-  for (let x = 0; x < img.width; x += 12) {
+  for (let x = 0; x < img.width; x += 6) {
 
-    for (let y = 0; y < img.height; y += 12) {
+    for (let y = 0; y < img.height; y += 6) {
 
       let index =
         (x + y * img.width) * 4;
@@ -223,9 +223,9 @@ function reformToTarget() {
     height / 2 -
     currentTarget.height * scale / 2;
 
-  for (let x = 0; x < currentTarget.width; x += 12) {
+  for (let x = 0; x < currentTarget.width; x += 6) {
 
-    for (let y = 0; y < currentTarget.height; y += 12) {
+    for (let y = 0; y < currentTarget.height; y += 6) {
 
       let index =
         (x + y * currentTarget.width) * 4;
