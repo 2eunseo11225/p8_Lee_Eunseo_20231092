@@ -47,7 +47,8 @@ function preload() {
   startImg = loadImage("start.png");
 
   targetImgs[0] = loadImage("target1.png");
-  
+  targetImgs[1] = loadImage("target2.png");
+  targetImgs[2] = loadImage("target3.png");
 
 }
 
